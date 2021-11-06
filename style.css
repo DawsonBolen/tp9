@@ -1,0 +1,152 @@
+h1 {
+  color: #000066;
+  font-family: font-family: 'Bebas Neue', cursive;
+}
+
+h4 { 
+  font-family: 'Oswald', sans-serif;
+ font-family: Oswald, sans-serif;
+  margin-bottom: 0;
+}
+
+
+  
+  
+
+
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+ul, ol {
+  display: none;
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+  
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+
+#banan {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  background-image: none;
+  
+}
+
+#banan h1.title {
+  color: black;
+}
+
+div {
+  display: inline-block;
+  width: 100vw
+  height: 40vh;
+  padding: 1vw;
+}
+
+#section1 {
+  display: block;
+ 
+}
+
+#section2 {
+  display: block;
+  
+}
+
+#section3 {
+  display: block;
+  
+}
+  
+#ingredients {
+ 
+ 
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  color: navyblue;
+  
+}
+
+#equipment {
+ 
+  
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  color: navyblue;
+  
+}
+
+#directions {
+ 
+  
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-family: 'Anton', sans-serif;
+  color: navyblue;
+  
+}
+
+footer {
+  float: left;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+
+/* breakpoint */
+
+@media (orientation: landscape) {
+  div {
+    width: calc(100vw/3-1vw);
+    height: 40vh;
+    float: left;
+  }
+  
+  
+}
+
+@media (orientation: portrait) {
+  div {
+  width: calc(100vw);
+    
+  }
+  
+  
+}
+
+
+
+@media screen and (max-width: 575px) {
+  #banan {
+    font-size: 25px;
+   
+
+
+
+
+
+
+  
